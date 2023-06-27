@@ -1,1 +1,326 @@
 # agriculture1.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agricultural Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<style type="text/css">
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.crop-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.crop {
+  text-align: center;
+}
+
+.crop img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.crop h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.crop p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 40px;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.crop-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.crop {
+  text-align: center;
+}
+
+.crop img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.crop h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.crop p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+</style>
+
+  <header>
+    <h1>Welcome to the Agricultural Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#crops">Crops</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <h2>Discover the World of Agriculture</h2>
+      <p>Explore different crops, learn cultivation techniques, and stay updated with the latest agricultural trends.</p>
+    </div>
+  </section>
+
+  <section id="crops">
+    <h2>Learn About Different Crops</h2>
+    <div class="crop-container">
+      <div class="crop">
+        <img src="download.jpg" border="10" alt="Crop 1">
+        <h3>Crop 1</h3>
+        <p>Tomatoes are a popular fruit that is often used and consumed as a vegetable. They belong to the Solanaceae family and are native to western South America. Tomatoes come in a variety of colors, including red, yellow, orange, and even green when unripe.
+
+Known for their juicy and tangy flavor, tomatoes are versatile ingredients used in numerous culinary dishes around the world. They are rich in essential nutrients like vitamins C and K, potassium, and antioxidants such as lycopene. Lycopene is responsible for the vibrant red color of tomatoes and is believed to have various health benefits.
+
+Tomatoes can be enjoyed raw in salads, sandwiches, and salsas, or cooked in sauces, soups, and stews. They are also used to make ketchup, tomato paste, and tomato juice. Additionally, tomatoes are a key component of Mediterranean cuisine and are widely cultivated globally.
+
+In terms of health benefits, tomatoes are known to contribute to heart health due to their high levels of antioxidants and potassium. They are also a good source of dietary fiber and can support digestion. Tomatoes have been associated with potential anticancer properties, and their consumption is linked to improved skin health and eye health.
+
+Overall, tomatoes are a versatile and nutritious fruit that adds flavor, color, and health benefits to various dishes.
+        </p>
+        <a href="index.5.html" class="learn-more-btn">Learn More</a>
+      </div>
+
+      <div class="crop">
+        <img src="download (1).jpg" alt="Crop 2">
+        <h3>Crop 2</h3>
+        <p>
+Cucumbers are a popular vegetable known for their refreshing and crisp taste. They belong to the Cucurbitaceae family and are widely cultivated and consumed worldwide. Cucumbers have a high water content, which contributes to their hydrating properties. They come in various shapes, sizes, and colors, with the most common being the long, green variety.
+
+Cucumbers are low in calories and are a good source of vitamins, minerals, and dietary fiber. They provide nutrients like vitamin K, vitamin C, potassium, and magnesium. Cucumbers are known for their cooling effect and are often used in salads, sandwiches, and as a healthy snack.
+
+In addition to their nutritional value, cucumbers offer several health benefits. They can help promote hydration, support digestion due to their fiber content, and contribute to maintaining healthy skin. Cucumbers are also believed to have antioxidant and anti-inflammatory properties.
+
+Overall, cucumbers are a versatile and refreshing vegetable that can be enjoyed in various dishes and contribute to a balanced and nutritious diet.</p>
+        <a href="inde.html3.html"  class="learn-more-btn">Learn More</a>
+      </div>
+
+      <div class="crop">
+        <img src="download (2).jpg" alt="Crop 3">
+        <h3>Crop 3</h3>
+        <p>
+Beans are a type of legume that belong to the Fabaceae family. They are highly nutritious and are widely consumed around the world. Beans come in various shapes, sizes, and colors, including black beans, kidney beans, pinto beans, and chickpeas, among others. They are an excellent source of plant-based protein, dietary fiber, vitamins, and minerals. Beans are known for their versatility and are commonly used in soups, stews, salads, and side dishes. They are also a staple in vegetarian and vegan diets as they provide essential nutrients. Consuming beans regularly can contribute to a balanced diet and promote overall health.</p>
+        <a href="index.html6.html" class="learn-more-btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a dedicated team of agricultural experts passionate about spreading knowledge and improving farming practices.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 Agricultural Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js">// Smooth scrolling when a navigation link is clicked
+function smoothScroll(target) {
+  const element = document.querySelector(target);
+  window.scrollTo({
+    top: element.offsetTop,
+    behavior: 'smooth'
+  });
+}
+
+// Add click event listeners to navigation links
+const navLinks = document.querySelectorAll('nav ul li a');
+navLinks.forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const target = link.getAttribute('href');
+    smoothScroll(target);
+  });
+});
+
+// Handle form submission for the contact form
+function submitForm(event) {
+  event.preventDefault();
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+
+  // Perform form validation and submission logic here
+
+  // Display a success message
+  const successMessage = document.createElement('p');
+  successMessage.textContent = `Thank you, ${name}! We will contact you soon.`;
+  successMessage.style.color = 'green';
+  document.getElementById('contact-form').appendChild(successMessage);
+}
+
+// Add submit event listener to the contact form
+const contactForm = document.getElementById('contact-form');
+contactForm.addEventListener('submit', submitForm);
+</script>
+</body>
+</html>
